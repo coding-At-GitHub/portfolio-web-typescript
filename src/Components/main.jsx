@@ -6,7 +6,7 @@ function MainPage() {
         <div>
             <div className='portfolio' >
                 <header>
-                    <h1>Your Name HEllio </h1>
+                    <h1>Your Full Name </h1>
                     <p>Web Developer | UI/UX Designer</p>
                 </header>
 
