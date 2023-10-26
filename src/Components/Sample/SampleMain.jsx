@@ -1,10 +1,16 @@
 import React from 'react'
 import ColorInversionHeader from './headerone';
+import ColorInversionFooterTwo from './FooterTwo';
+import ColorInversionFooterOne from './FooterOne';
+import JoySignInSideTemplate from './signInthree';
 
 function SampleMain() {
   return (
     <div>
-      <ColorInversionHeader />
+      {/* <ColorInversionFooterTwo /> */}
+      {/* <ColorInversionHeader /> */}
+      <ColorInversionFooterOne />
+      {/* <JoySignInSideTemplate /> */}
     </div>
   )
 }

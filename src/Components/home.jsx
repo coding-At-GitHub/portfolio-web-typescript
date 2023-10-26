@@ -1,41 +1,89 @@
 import React from 'react';
 import './combinedCss.css';
 import { FaTwitter, FaLinkedin, FaGithub, FaInstagram, FaFacebook } from 'react-icons/fa'; // Import the social icons you need
+import ColorInversionFooterOne from './Sample/FooterOne';
+import { FaHtml5, FaCss3, FaJs, FaReact, FaNode, FaDatabase } from 'react-icons/fa'; // Import icons
 
 function MainPage() {
 
-    const SocialIcons = () => {
+
+    const SkillSect = () => {
+        const skills = [
+          { name: 'HTML5', icon: <FaHtml5 /> },
+          { name: 'CSS3', icon: <FaCss3 /> },
+          { name: 'JavaScript', icon: <FaJs /> },
+          { name: 'React', icon: <FaReact /> },
+          { name: 'Node.js', icon: <FaNode /> },
+          { name: 'Database', icon: <FaDatabase /> },
+          // Add more skills here
+        ];
+      
         return (
-            <div className="social-icons">
-                <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-                    <FaTwitter />
-                </a>
-                <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
-                    <FaLinkedin />
-                </a>
-                <a href="https://github.com/Coding-At-GitHub" target="_blank" rel="noopener noreferrer">
-                    <FaGithub />
-                </a>
-                <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
-                    <FaInstagram />
-                </a>
-                <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
-                    <FaFacebook />
-                </a>
+          <section className="skill-section">
+            <h2>Skills</h2>
+            <div className="skill-list">
+              {skills.map((skill, index) => (
+                <div key={index} className="skill-item">
+                  {skill.icon}
+                  <p>{skill.name}</p>
+                </div>
+              ))}
             </div>
+          </section>
         );
-    };
+      };
+
+    // const SocialIcons = () => {
+    //     return (
+    //         <div className="social-icons">
+    //             <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+    //                 <FaTwitter />
+    //             </a>
+    //             <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+    //                 <FaLinkedin />
+    //             </a>
+    //             <a href="https://github.com/Coding-At-GitHub" target="_blank" rel="noopener noreferrer">
+    //                 <FaGithub />
+    //             </a>
+    //             <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+    //                 <FaInstagram />
+    //             </a>
+    //             <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
+    //                 <FaFacebook />
+    //             </a>
+    //         </div>
+    //     );
+    // };
 
 
     return (
         <div>
-            <div className='portfolio' >
-                <header>
-                    <h1>Your Full Name </h1>
-                    <p>Web Developer</p>
+            <div className='container' >
+         
+              
+                <header className="header" >
+                    <div className="header-content">
+                        <h1 className="header-title">Rajesh Choudhary</h1>
+                        <p className="header-subtitle">Full Stack Web Developer</p>
+                        <p className="header-description">Welcome to my portfolio. Explore my work and skills.</p>
+                    </div>
                 </header>
 
+                <section></section>
+                
                 <section >
+                    <h2>About Me</h2>
+                    <p>
+                      1+ Year Exprience in frontend Reactjs 
+                    </p>
+                   
+                </section>
+
+                <section>
+                    {SkillSect()}
+                </section>
+           
+                {/* <section >
                     <h2>About Me</h2>
                     <p>
                         Welcome to my portfolio! I am a web developer with a passion for creating
@@ -50,7 +98,7 @@ function MainPage() {
 
                         When I'm not coding, I enjoy hiking, gaming, and cooking.
                     </p>
-                </section>
+                </section> */}
 
                 <section>
                     <h2>Projects</h2>
@@ -65,7 +113,7 @@ function MainPage() {
                     {/* Add more projects here */}
                 </section>
 
-                <section >
+                {/* <section >
                     <h2>Contact Me</h2>
                     <p>
                         Feel free to reach out to me at yourname@example.com or connect with me
@@ -113,6 +161,10 @@ function MainPage() {
                             <p>{SocialIcons()}</p>
                         </div>
                     </footer>
+                </section> */}
+               
+                <section>
+                    <ColorInversionFooterOne />
                 </section>
             </div>
         </div>
