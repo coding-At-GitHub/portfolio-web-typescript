@@ -3,8 +3,84 @@ import './combinedCss.css';
 import { FaTwitter, FaLinkedin, FaGithub, FaInstagram, FaFacebook } from 'react-icons/fa'; // Import the social icons you need
 import ColorInversionFooterOne from './Sample/FooterOne';
 import { FaHtml5, FaCss3, FaJs, FaReact, FaNode, FaDatabase } from 'react-icons/fa'; // Import icons
+// import {
+//     FaHtml5,
+//     FaCss3,
+//     FaJs,
+//     FaReact,
+//     FaNode,
+//     FaDatabase,
+//     FaAngular,
+//     FaAngularjs,
+//     FaBootstrap,
+//     FaTypescript,
+//     FaRedhat,
+//     FaNpm,
+//     FaMaterialUi,
+//     FaReacteurope,
+//     FaNodeJs,
+//     FaReactos,
+//     FaReactrouter,
+//     FaReacteuropejs,
+//     FaReactosjs,
+//     FaReactnative,
+//     FaReactrouterjs,
+//   } from 'react-icons/fa';
 
 function MainPage() {
+
+
+    // const dummyProject = ({ title, description, imageUrl, projectUrl, sourceCodeUrl }) => {
+    //     return (
+    //       <div className="project">
+    //         <img src={imageUrl} alt={title} />
+    //         <h3>{title}</h3>
+    //         <p>{description}</p>
+    //         <div className="project-links">
+    //           <a href={projectUrl} target="_blank" rel="noopener noreferrer">View Project</a>
+    //           <a href={sourceCodeUrl} target="_blank" rel="noopener noreferrer">Source Code</a>
+    //         </div>
+    //       </div>
+    //     );
+    //   };
+
+    //   const AllProjects = ({ projects }) => {
+    //     return (
+    //       <section className="projects-section">
+    //         <h2>Projects</h2>
+    //         <div className="project-list">
+    //           {projects.map((project, index) => (
+    //             <dummyProject
+    //               key={index}
+    //               title={project.title}
+    //               description={project.description}
+    //               imageUrl={project.imageUrl}
+    //               projectUrl={project.projectUrl}
+    //               sourceCodeUrl={project.sourceCodeUrl}
+    //             />
+    //           ))}
+    //         </div>
+    //       </section>
+    //     );
+    //   };
+
+    //   const projectData = [
+    //     {
+    //       title: 'Project 1',
+    //       description: 'Description of Project 1',
+    //       imageUrl: 'project1.jpg',
+    //       projectUrl: 'https://example.com/project1',
+    //       sourceCodeUrl: 'https://github.com/yourusername/project1',
+    //     },
+    //     {
+    //       title: 'Project 2',
+    //       description: 'Description of Project 2',
+    //       imageUrl: 'project2.jpg',
+    //       projectUrl: 'https://example.com/project2',
+    //       sourceCodeUrl: 'https://github.com/yourusername/project2',
+    //     },
+
+    //   ];
 
 
     const SkillSect = () => {
@@ -16,6 +92,24 @@ function MainPage() {
           { name: 'Node.js', icon: <FaNode /> },
           { name: 'Database', icon: <FaDatabase /> },
           // Add more skills here
+        //   { name: 'HTML5', icon: <FaHtml5 /> },
+        //   { name: 'CSS3', icon: <FaCss3 /> },
+        //   { name: 'JavaScript', icon: <FaJs /> },
+        //   { name: 'React', icon: <FaReact /> },
+        //   { name: 'Redux', icon: <FaRedhat /> },
+        //   { name: 'React-Redux', icon: <FaReacteurope /> },
+        //   { name: 'Redux Toolkit', icon: <FaNpm /> },
+        //   { name: 'Angular', icon: <FaAngular /> },
+        //   { name: 'Angular Material', icon: <FaAngularjs /> },
+        //   { name: 'TypeScript', icon: <FaTypescript /> },
+        //   { name: 'Bootstrap', icon: <FaBootstrap /> },
+        //   { name: 'Tailwind CSS', icon: <FaReactos /> },
+        //   { name: 'Material UI', icon: <FaMaterialUi /> },
+        //   { name: 'MongoDB', icon: <FaReactrouter /> },
+        //   { name: 'MySQL', icon: <FaReacteuropejs /> },
+        //   { name: 'Node.js', icon: <FaReactosjs /> },
+        //   { name: 'Next.js', icon: <FaReactnative /> },
+        //   { name: 'React Native', icon: <FaReactrouterjs /> },
         ];
       
         return (
@@ -83,6 +177,16 @@ function MainPage() {
                     {SkillSect()}
                 </section>
            
+                <section>
+              
+{/* <div>
+    {AllProjects(projectData)}
+</div> */}
+      {/* <Projects projects={projectData} /> */}
+
+                </section>
+
+
                 {/* <section >
                     <h2>About Me</h2>
                     <p>
