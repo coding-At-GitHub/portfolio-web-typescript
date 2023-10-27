@@ -44,43 +44,81 @@ function MainPage() {
     //     );
     //   };
 
-    //   const AllProjects = ({ projects }) => {
-    //     return (
-    //       <section className="projects-section">
-    //         <h2>Projects</h2>
-    //         <div className="project-list">
-    //           {projects.map((project, index) => (
-    //             <dummyProject
-    //               key={index}
-    //               title={project.title}
-    //               description={project.description}
-    //               imageUrl={project.imageUrl}
-    //               projectUrl={project.projectUrl}
-    //               sourceCodeUrl={project.sourceCodeUrl}
-    //             />
-    //           ))}
-    //         </div>
-    //       </section>
-    //     );
-    //   };
+      const AllProjects = ( projects ) => {
+        return (
+          <section className="projects-section">
+            <h2>Projects</h2>
+            <div className="project-list">
+              {projects.map((project, index) => (
+                 <div className="project">
+                 <img src={project.imageUrl} alt={project.title} />
+                 <h3>{project.title}</h3>
+                 <p>{project.description}</p>
+                 <div className="project-links">
+                   <a href={project.projectUrl} target="_blank" rel="noopener noreferrer">View Project</a>
+                   <a href={project.sourceCodeUrl} target="_blank" rel="noopener noreferrer">Source Code</a>
+                 </div>
+               </div>
+                // {dummyProject(project)}
+                // <dummyProject
+                //   key={index}
+                //   title={project.title}
+                //   description={project.description}
+                //   imageUrl={project.imageUrl}
+                //   projectUrl={project.projectUrl}
+                //   sourceCodeUrl={project.sourceCodeUrl}
+                // />
+              ))}
+            </div>
+          </section>
+        );
+      };
 
-    //   const projectData = [
-    //     {
-    //       title: 'Project 1',
-    //       description: 'Description of Project 1',
-    //       imageUrl: 'project1.jpg',
-    //       projectUrl: 'https://example.com/project1',
-    //       sourceCodeUrl: 'https://github.com/yourusername/project1',
-    //     },
-    //     {
-    //       title: 'Project 2',
-    //       description: 'Description of Project 2',
-    //       imageUrl: 'project2.jpg',
-    //       projectUrl: 'https://example.com/project2',
-    //       sourceCodeUrl: 'https://github.com/yourusername/project2',
-    //     },
+      const projectData = [
+        {
+          title: 'Project 1',
+          description: 'Description of Project 1',
+          imageUrl: 'project1.jpg',
+          projectUrl: 'https://example.com/project1',
+          sourceCodeUrl: 'https://github.com/yourusername/project1',
+        },
+        {
+          title: 'Project 2',
+          description: 'Description of Project 2',
+          imageUrl: 'project2.jpg',
+          projectUrl: 'https://example.com/project2',
+          sourceCodeUrl: 'https://github.com/yourusername/project2',
+        },
+        {
+          title: 'Project 1',
+          description: 'Description of Project 1',
+          imageUrl: 'project1.jpg',
+          projectUrl: 'https://example.com/project1',
+          sourceCodeUrl: 'https://github.com/yourusername/project1',
+        },
+        {
+          title: 'Project 2',
+          description: 'Description of Project 2',
+          imageUrl: 'project2.jpg',
+          projectUrl: 'https://example.com/project2',
+          sourceCodeUrl: 'https://github.com/yourusername/project2',
+        },
+        {
+          title: 'Project 1',
+          description: 'Description of Project 1',
+          imageUrl: 'project1.jpg',
+          projectUrl: 'https://example.com/project1',
+          sourceCodeUrl: 'https://github.com/yourusername/project1',
+        },
+        {
+          title: 'Project 2',
+          description: 'Description of Project 2',
+          imageUrl: 'project2.jpg',
+          projectUrl: 'https://example.com/project2',
+          sourceCodeUrl: 'https://github.com/yourusername/project2',
+        },
 
-    //   ];
+      ];
 
 
     const SkillSect = () => {
@@ -179,9 +217,9 @@ function MainPage() {
            
                 <section>
               
-{/* <div>
+<div>
     {AllProjects(projectData)}
-</div> */}
+</div> 
       {/* <Projects projects={projectData} /> */}
 
                 </section>
@@ -204,7 +242,7 @@ function MainPage() {
                     </p>
                 </section> */}
 
-                <section>
+                {/* <section>
                     <h2>Projects</h2>
                     <div >
                         <h3>Project 1</h3>
@@ -214,8 +252,8 @@ function MainPage() {
                         <h3>Project 2</h3>
                         <p>Description of Project 2.</p>
                     </div>
-                    {/* Add more projects here */}
-                </section>
+               
+                </section> */}
 
                 {/* <section >
                     <h2>Contact Me</h2>
