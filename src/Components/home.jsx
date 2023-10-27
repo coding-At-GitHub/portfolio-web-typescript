@@ -76,10 +76,10 @@ function MainPage() {
 
       const projectData = [
         {
-          title: 'Project 1',
-          description: 'Description of Project 1',
+          title: 'Portfolio',
+          description: 'Description of Skills and Project.Easy to share Link instead of ',
           imageUrl: 'project1.jpg',
-          projectUrl: 'https://example.com/project1',
+          projectUrl: 'https://rajesh02portfolio.vercel.app',
           sourceCodeUrl: 'https://github.com/yourusername/project1',
         },
         {
