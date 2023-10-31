@@ -1,10 +1,10 @@
-/* .portfolio {
+.portfolio {
     max-width: 1280px;
     min-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
-} */
+}
 /* Base Styles (applies to all screen sizes) */
 body {
   font-family: Arial, sans-serif;
@@ -12,13 +12,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.container {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 
 /* Sample CSS for Project Section */
 

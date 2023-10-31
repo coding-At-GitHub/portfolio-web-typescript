@@ -27,18 +27,6 @@ const SkillSectTwo = () => {
                 </div>
               ))}
             </div>
-            {/* <Grid container spacing={1}>
-                {skills.map((skill, index) => (
-                    <Grid item key={index}>
-                        <Chip
-                            icon={skill.icon}
-                            label={skill.name}
-                            variant="outlined"
-                            color="primary"
-                        />
-                    </Grid>
-                ))}
-            </Grid> */}
         </div>
     );
 };

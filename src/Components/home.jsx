@@ -12,7 +12,7 @@ function MainPage() {
 
   return (
     <div>
-      <div className='container' >
+      <div className='portfolio' >
         <section>
           <HeaderSect />
         </section>
