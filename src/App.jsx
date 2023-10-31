@@ -1,15 +1,16 @@
 import Home from "./Component/Home";
 import SampleMain from "./Components/Sample/SampleMain";
-import MainPage from "./Component/MainPage"
+import MainPages from "./Component/MainPage"
+import MainPage from './Components/home';
 
 function App() {
 
   return (
     <>
-      {/* <MainPage /> */}
-      {/* <SampleMain /> */}
-      {/* <Home /> */}
       <MainPage />
+      {/* <Home /> */}
+      {/* <SampleMain /> */}
+    
     </>
   )
 }

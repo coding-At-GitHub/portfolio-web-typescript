@@ -6,33 +6,33 @@ import SkillSectTwo from './sections/SkillsSectTwo';
 import ColorInversionFooterOne from './Sample/FooterOne';
 import AboutMeSect from './sections/AboutMeSect';
 import EducationSect from './sections/EducationSect';
-
+import Divider from '@mui/joy/Divider';
 
 function MainPage() {
 
   return (
     <div>
       <div className='portfolio' >
-        <section>
+        <section className='section'>
           <HeaderSect />
         </section>
-
-        <section >
+        <Divider sx={{ my: 0.7 }} />
+        <section className='section'>
           <AboutMeSect />
         </section>
-
-        <section>
+        <Divider sx={{ my: 0.7 }} />
+        <section className='section'>
           <SkillSectTwo />
         </section>
-
-        <section>
+        <Divider sx={{ my: 0.7 }} />
+        <section className='section'>
           <ProjectSectionTwo />
         </section>
-
-        <section >
+        <Divider sx={{ my: 0.7 }} />
+        <section className='section'>
           <EducationSect />
         </section>
-
+        <Divider sx={{ my: 0.7 }} />
         <section>
           <ColorInversionFooterOne />
         </section>

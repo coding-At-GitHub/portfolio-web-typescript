@@ -3,7 +3,7 @@ import './../CombinedCss.css';
 
 function AboutMeSect() {
   return (
-    <div>
+    <div className='about-me'>
        <h2>About Me</h2>
           <p>
             Passionate Software Engineer with 1+ year of experience in web, frontend and backend development in both Angular And ReactJs in
