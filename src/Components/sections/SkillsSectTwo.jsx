@@ -27,7 +27,7 @@ const SkillSectTwo = () => {
                 </div>
               ))}
             </div>
-            <Grid container spacing={1}>
+            {/* <Grid container spacing={1}>
                 {skills.map((skill, index) => (
                     <Grid item key={index}>
                         <Chip
@@ -38,7 +38,7 @@ const SkillSectTwo = () => {
                         />
                     </Grid>
                 ))}
-            </Grid>
+            </Grid> */}
         </div>
     );
 };
