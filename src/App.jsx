@@ -1,6 +1,6 @@
 import Home from "./Component/Home";
 import SampleMain from "./Components/Sample/SampleMain";
-import MainPage from "./Components/home"
+import MainPage from "./Component/MainPage"
 
 function App() {
 
@@ -8,7 +8,8 @@ function App() {
     <>
       {/* <MainPage /> */}
       {/* <SampleMain /> */}
-      <Home />
+      {/* <Home /> */}
+      <MainPage />
     </>
   )
 }
