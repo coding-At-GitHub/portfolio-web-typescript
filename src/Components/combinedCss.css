@@ -92,6 +92,16 @@ body {
   text-decoration: underline;
 }
 
+.projectCard {
+  background-color: #008E9A ;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+  text-align: left;
+  max-width: 300px;
+}
+
+
 
 /* Skill.css */
 
