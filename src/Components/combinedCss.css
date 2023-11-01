@@ -137,6 +137,15 @@ body {
   margin-bottom: 10px;
 }
 
+.pngIcon {
+  width: 36px; /* Set width */
+  height: 36px; /* Set height */
+  margin-bottom: 10px;
+  /* Additional styling for appearance, adjust as needed */
+  filter: grayscale(100%) opacity(70%); /* Simulate grayscale for inactive state */
+  transition: filter 0.3s ease; /* Transition effect for hover or state changes */
+}
+
 /* Footer CSS */
 .footer {
     background-color: gray;

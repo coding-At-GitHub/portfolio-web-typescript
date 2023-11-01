@@ -10,20 +10,23 @@ import AngularIcon from './../../assets/Images/Icons/angularIcon.png';
 
 
 const SkillSectTwo = () => {
-    const iconRedux = <img src={ReduxIcon} alt="Redux Icon" />
-    const iconNode = <img src={NodeIcon} alt="Node Icon" />
-    const iconGit = <img src={GitIcon} alt="Git Icon" />
+    const iconRedux = <img src={ReduxIcon} alt="Redux Icon" class="pngIcon" />
+    const iconNode = <img src={NodeIcon} alt="Node Icon" class="pngIcon" />
+    const iconGit = <img src={GitIcon} alt="Git Icon" class="pngIcon" />
+    // const iconExpress = <img src={ExpressIcon} alt="Express Icon" class="pngIcon" />
+    // const iconAngular = <img src={AngularIcon} alt="Angular Icon" class="pngIcon" />
    
     const skills = [
         { name: 'React', icon: <FaReact /> },
-        { name: 'redux', icon: iconRedux },
-        { name: 'redux', icon: iconNode },
-        { name: 'redux', icon: iconGit },
-        // { name: 'redux', icon: <img src={ReduxIcon} alt="Redux Icon" /> },
+        { name: 'Redux Toolkit', icon: iconRedux },
         { name: 'JavaScript', icon: <FaJs /> },
         { name: 'HTML5', icon: <FaHtml5 /> },
         { name: 'CSS3', icon: <FaCss3 /> },
         { name: 'Node.js', icon: <FaNode /> },
+        // { name: 'Node Js', icon: iconNode },
+        { name: 'Express Js', icon: <img src={ExpressIcon} alt="Express Icon" class="pngIcon" /> },
+        { name: 'Angular', icon: <img src={AngularIcon} alt="Angular Icon" class="pngIcon" /> },
+        { name: 'Git', icon: iconGit },
         { name: 'Database', icon: <FaDatabase /> },
 
     ];
