@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Typography, Chip } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 import { FaHtml5, FaCss3, FaJs, FaReact, FaNode, FaDatabase } from 'react-icons/fa';
 import './../CombinedCss.css';
 import ReduxIcon from './../../assets/Images/Icons/reduxIcon.png';

@@ -7,12 +7,14 @@ function EducationSect() {
   return (
     <div>
       <Stack direction="row" spacing={2}>
+
         <Card>
           <CardContent>
             <Typography variant="h6">BTech</Typography>
             <Typography variant="body2">Govt Engineering college, Ajmer, Rajasthan</Typography>
           </CardContent>
         </Card>
+        
         <Card>
           <CardContent>
             <Typography variant="h6">Scholing</Typography>
