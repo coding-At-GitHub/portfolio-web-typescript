@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Typography, Card, CardContent, CardActions, Button } from '@material-ui/core';
-import './../CombinedCss.css';
+import './../combined.css';
 import ProjectCard from './ProjectCard';
 import ReduxIcon from './../../assets/Images/Icons/reduxIcon.png';
 import NodeIcon from './../../assets/Images/Icons/nodeJsIcon.png';

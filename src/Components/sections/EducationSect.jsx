@@ -1,5 +1,5 @@
 import React from 'react';
-import './../CombinedCss.css';
+import './../combined.css';
 import { Grid, Typography, Card, CardContent, CardActions, Button } from '@material-ui/core';
 import Stack from '@mui/material/Stack';
 

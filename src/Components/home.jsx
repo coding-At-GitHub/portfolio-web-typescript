@@ -1,5 +1,5 @@
 import React from 'react';
-import './combinedCss.css';
+import './combined.css';
 import HeaderSect from './sections/HeaderSect';
 import ProjectSectionTwo from './sections/ProjectTwoSect';
 import SkillSectTwo from './sections/SkillsSectTwo';

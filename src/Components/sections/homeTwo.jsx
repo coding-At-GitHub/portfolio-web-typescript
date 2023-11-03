@@ -1,5 +1,5 @@
 import React from 'react';
-import './combinedCss.css';
+import './combined.css';
 import SkillSect from './sections/SkillsSect';
 import ProjectSection from './sections/ProjectSect';
 import { FaTwitter, FaLinkedin, FaGithub, FaInstagram, FaFacebook } from 'react-icons/fa'; // Import the social icons you need

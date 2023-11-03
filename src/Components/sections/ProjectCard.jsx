@@ -5,7 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import './../CombinedCss.css';
+import './../combined.css';
 import ReduxIcon from './../../assets/Images/Icons/reduxIcon.png';
 import NodeIcon from './../../assets/Images/Icons/nodeJsIcon.png';
 import GitIcon from './../../assets/Images/Icons/gitIcon.png';

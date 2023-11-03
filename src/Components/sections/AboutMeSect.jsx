@@ -1,5 +1,5 @@
 import React from 'react';
-import './../CombinedCss.css';
+import './../combined.css';
 
 function AboutMeSect() {
   return (
