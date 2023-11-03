@@ -3,7 +3,7 @@ import './combinedCss.css';
 import HeaderSect from './sections/HeaderSect';
 import ProjectSectionTwo from './sections/ProjectTwoSect';
 import SkillSectTwo from './sections/SkillsSectTwo';
-import ColorInversionFooterOne from './Sample/FooterOne';
+import ColorInversionFooterOne from './sections/Footer';
 import AboutMeSect from './sections/AboutMeSect';
 import EducationSect from './sections/EducationSect';
 import Divider from '@mui/joy/Divider';
