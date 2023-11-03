@@ -6,6 +6,7 @@ import Stack from '@mui/material/Stack';
 function EducationSect() {
   return (
     <div>
+      <h2>Education</h2>
       <Stack direction="row" spacing={2}>
 
         <Card>

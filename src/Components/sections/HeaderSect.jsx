@@ -1,5 +1,5 @@
 import React from 'react'
-import './../../Components/combined.css'
+import './../combined.css';
 function HeaderSect() {
   return (
     <div>
