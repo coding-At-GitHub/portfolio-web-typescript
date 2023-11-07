@@ -6,18 +6,18 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import './../combined.css';
-import ReduxIcon from './../../assets/Images/Icons/reduxIcon.png';
-import NodeIcon from './../../assets/Images/Icons/nodeJsIcon.png';
-import GitIcon from './../../assets/Images/Icons/gitIcon.png';
-import ExpressIcon from './../../assets/Images/Icons/expressJsIcon.png';
-import AngularIcon from './../../assets/Images/Icons/angularIcon.png';
+// import ReduxIcon from './../../assets/reduxIcon.png';
+// import NodeIcon from './../../assets/nodeJsIcon.png';
+// import GitIcon from './../../assets/gitIcon.png';
+// import ExpressIcon from './../../assets/expressJsIcon.png';
+// import AngularIcon from './../../assets/angularIcon.png';
 // = ({ title, description, imageUrl, projectUrl, sourceCodeUrl })
 
 export default function ProjectCard({ title, description, imageUrl, projectUrl, sourceCodeUrl }) {
     return (
         <>
 
-            <Card sx={{ maxWidth: 345 }} className='projectCard'>
+            <Card sx={{ maxWidth: 215, ml:2 }} className='projectCard'>
                 <CardMedia
                     component="img"
                     alt={title}
@@ -26,10 +26,10 @@ export default function ProjectCard({ title, description, imageUrl, projectUrl, 
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                    {title}
+                        {title}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                    {description}
+                        {description}
                     </Typography>
                 </CardContent>
                 <CardActions>
