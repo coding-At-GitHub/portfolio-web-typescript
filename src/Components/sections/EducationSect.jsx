@@ -14,14 +14,14 @@ function EducationSect() {
         spacing={2}
         sx={{ ml: 3 }}
       >
-        <Card sx={{ maxWidth: 215, ml: 2, backgroundColor: '#badee8' }} >
-          <CardContent style={{ backgroundColor: '#badee8' }}>
+        <Card sx={{ maxWidth: 215, ml: 2,}} >
+          <CardContent style={{ backgroundColor: '#e6e6e6', color:'#000000' }}>
             <Typography variant="h6">BTech</Typography>
             <Typography variant="body2">Govt Engineering college, Ajmer, Rajasthan</Typography>
           </CardContent>
         </Card>
-        <Card sx={{ maxWidth: 215, ml: 2, backgroundColor: '#badee8' }} >
-          <CardContent style={{ backgroundColor: '#badee8' }}>
+        <Card sx={{ maxWidth: 215, ml: 2, }} >
+          <CardContent style={{ backgroundColor: '#e6e6e6', color:'#000000' }}>
             <Typography variant="h6">Schooling</Typography>
             <Typography variant="body2">Kendriya Vidyalaya NTPC Anta, Rajasthan</Typography>
           </CardContent>

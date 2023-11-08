@@ -13,7 +13,7 @@ import './../combined.css';
 export default function ProjectCard({ title, description, imageUrl, projectUrl, sourceCodeUrl }) {
     return (
         <>
-            <Card sx={{ maxWidth: 215, ml: 1, backgroundColor: '#badee8' }} className='projectCard'>
+            <Card sx={{ maxWidth: 215, ml: 1, backgroundColor: '#00ffff' }} className='projectCard'>
                 <CardMedia component="img" alt={title} image={imageUrl} height="100" />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div"> {title} </Typography>
