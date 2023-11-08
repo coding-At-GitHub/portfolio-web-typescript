@@ -3,7 +3,6 @@ import './combined.css';
 import HeaderSect from './sections/HeaderSect';
 import ProjectSectionTwo from './sections/ProjectTwoSect';
 import SkillSectTwo from './sections/SkillsSectTwo';
-import ColorInversionFooterOne from './sections/Footer';
 import AboutMeSect from './sections/AboutMeSect';
 import EducationSect from './sections/EducationSect';
 import Divider from '@mui/joy/Divider';
@@ -34,9 +33,6 @@ function MainPage() {
           <EducationSect />
         </section>
         <Divider sx={{ my: 0.7 }} />
-        <section>
-          <ColorInversionFooterOne />
-        </section>
         <section>
           <ColorInversionFooterTwo />
         </section>
