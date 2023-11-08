@@ -6,18 +6,12 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import './../combined.css';
-// import ReduxIcon from './../../assets/reduxIcon.png';
-// import NodeIcon from './../../assets/nodeJsIcon.png';
-// import GitIcon from './../../assets/gitIcon.png';
-// import ExpressIcon from './../../assets/expressJsIcon.png';
-// import AngularIcon from './../../assets/angularIcon.png';
-// = ({ title, description, imageUrl, projectUrl, sourceCodeUrl })
 
 export default function ProjectCard({ title, description, imageUrl, projectUrl, sourceCodeUrl }) {
     return (
         <>
 
-            <Card sx={{ maxWidth: 215, ml:2 }} className='projectCard'>
+            <Card sx={{ maxWidth: 215, ml: 2, backgroundColor:'#badee8' }} className='projectCard'>
                 <CardMedia
                     component="img"
                     alt={title}
@@ -38,17 +32,6 @@ export default function ProjectCard({ title, description, imageUrl, projectUrl, 
                 </CardActions>
             </Card>
 
-            {/* <Card>
-            <div className="project">
-                <img src={imageUrl} alt={title} />
-                <h3>{title}</h3>
-                <p>{description}</p>
-                <div className="project-links">
-                    <a href={projectUrl} target="_blank" rel="noopener noreferrer">View Project</a>
-                    <a href={sourceCodeUrl} target="_blank" rel="noopener noreferrer">Source Code</a>
-                </div>
-            </div>
-            </Card> */}
 
         </>
     );
