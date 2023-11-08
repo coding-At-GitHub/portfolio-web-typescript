@@ -8,37 +8,38 @@ body {
 
 /* main page HOme */
 .portfolio {
-    max-width: 1200;
-    min-width: 320px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  /* Header CSS */
-  
-  .header {
-    /* background-color: #333; */
-    background-color: #636b74;
-    color: #fff;
-    text-align: center;
-    padding: 15px 5px;
-  }
-  
-  .header-title {
-    font-size: 36px;
-    margin: 0;
-  }
-  
-  .header-subtitle {
-    font-size: 24px;
-    margin: 10px 0;
-  }
-  
-  .header-description {
-    font-size: 18px;
-    margin: 10px 0;
-  }
+  max-width: 1200;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Header CSS */
+
+.header {
+  /* background-color: #333; */
+  background-color: #636b74;
+  color: #fff;
+  text-align: center;
+  padding: 15px 5px;
+}
+
+.header-title {
+  font-size: 36px;
+  margin: 0;
+}
+
+.header-subtitle {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.header-description {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
 /* Sample CSS for Project Section */
 .projects-section {
   /* background-color: #f9f9f9; */
@@ -46,12 +47,14 @@ body {
   padding: 40px 0;
   text-align: center;
 }
+
 .project-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
 }
+
 .project {
   background-color: #fff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -95,7 +98,7 @@ body {
 }
 
 .projectCard {
-  background-color: #008E9A ;
+  background-color: #008E9A;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   border-radius: 4px;
@@ -109,13 +112,15 @@ body {
 
 .about-me {
   background-color: #636b74;
-    color: #fff;
+  color: #fff;
   padding: 10px 0;
   text-align: center;
 }
+
 .section {
   background-color: #636b74;
-    color: #fff;
+  color: #fff;
+  /* color: red; */
   padding: 10px 0;
   text-align: center;
 }
@@ -124,7 +129,7 @@ body {
 
 .skill-section {
   background-color: #636b74;
-    color: #969EA8;
+  color: #969EA8;
   /* background-color: #f7f7f7; */
   padding: 40px 0;
   text-align: center;
@@ -150,35 +155,52 @@ body {
 }
 
 .pngIcon {
-  width: 36px; /* Set width */
-  height: 36px; /* Set height */
+  width: 36px;
+  /* Set width */
+  height: 36px;
+  /* Set height */
   margin-bottom: 10px;
   /* Additional styling for appearance, adjust as needed */
-  filter: grayscale(100%) opacity(70%); /* Simulate grayscale for inactive state */
-  transition: filter 0.3s ease; /* Transition effect for hover or state changes */
+  filter: grayscale(100%) opacity(70%);
+  /* Simulate grayscale for inactive state */
+  transition: filter 0.3s ease;
+  /* Transition effect for hover or state changes */
 }
 
 /* Footer CSS */
 .footer {
-    background-color: gray;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-  }
-  
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .social-icons {
-    display: flex;
-    gap: 10px;
-    font-size: 24px;
-  }
-  
-  .social-icons a {
-    color: #fff;
-    text-decoration: none;
-  }
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  font-size: 24px;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* .eduCard {
+    background-color: #badee8;
+    color: brown;
+  } */
+.eduCard {
+  background-color: #008E9A;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+  text-align: left;
+  max-width: 400px;
+}

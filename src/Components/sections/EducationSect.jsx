@@ -1,5 +1,5 @@
 import React from 'react';
-// import './../combined.css';
+import './../combined.css';
 import { Grid, Typography, Card, CardContent, CardActions, Button } from '@material-ui/core';
 import Stack from '@mui/material/Stack';
 
@@ -14,15 +14,14 @@ function EducationSect() {
         spacing={2}
         sx={{ ml: 3 }}
       >
-        <Card sx={{ maxWidth: 215, ml: 2, backgroundColor: '#badee8', }} >
-          <CardContent>
+        <Card sx={{ maxWidth: 215, ml: 2, backgroundColor: '#badee8' }} >
+          <CardContent style={{ backgroundColor: '#badee8' }}>
             <Typography variant="h6">BTech</Typography>
             <Typography variant="body2">Govt Engineering college, Ajmer, Rajasthan</Typography>
           </CardContent>
         </Card>
-
         <Card sx={{ maxWidth: 215, ml: 2, backgroundColor: '#badee8' }} >
-          <CardContent>
+          <CardContent style={{ backgroundColor: '#badee8' }}>
             <Typography variant="h6">Schooling</Typography>
             <Typography variant="body2">Kendriya Vidyalaya NTPC Anta, Rajasthan</Typography>
           </CardContent>

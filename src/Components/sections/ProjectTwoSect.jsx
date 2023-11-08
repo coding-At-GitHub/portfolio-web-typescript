@@ -10,6 +10,13 @@ import SSAlgoSort from './../../assets/SortAlgo.png';
 
 const projects = [
   {
+    title: 'Portfolio',
+    description: 'Description of Skills and Project.Easy to share Link instead of ',
+    imageUrl: SSPortfolio,
+    projectUrl: 'https://cggb6112.vercel.app/',
+    sourceCodeUrl: 'https://github.com/coding-At-GitHub',
+  },
+  {
     title: 'Resume Creator',
     description: 'This is a website that users can use to build their resumes. Description: Users have to fill in their details, choose a template   and download the final resume',
     imageUrl: SSResumeCreator,
@@ -32,13 +39,7 @@ const projects = [
     projectUrl: 'https://visual-algorithms-react.vercel.app/',
     sourceCodeUrl: 'https://github.com/coding-At-GitHub',
   },
-  {
-    title: 'Portfolio',
-    description: 'Description of Skills and Project.Easy to share Link instead of ',
-    imageUrl: SSPortfolio,
-    projectUrl: 'https://cggb6112.vercel.app/',
-    sourceCodeUrl: 'https://github.com/coding-At-GitHub',
-  },
+
 
 ];
 
@@ -49,9 +50,9 @@ const ProjectSectionTwo = () => {
         Projects
       </Typography>
 
-      <Grid container spacing={3}>
+      <Grid container spacing={1}>
         {projects.map((project, index) => (
-          <Grid item key={index} xs={12} sm={6} md={4}>
+          <Grid item key={index} xs={12} sm={6} md={3}>
             <ProjectCard
               key={index}
               title={project.title}

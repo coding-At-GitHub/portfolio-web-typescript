@@ -7,6 +7,7 @@ import ColorInversionFooterOne from './sections/Footer';
 import AboutMeSect from './sections/AboutMeSect';
 import EducationSect from './sections/EducationSect';
 import Divider from '@mui/joy/Divider';
+import ColorInversionFooterTwo from './sections/FooterSect';
 
 function MainPage() {
 
@@ -35,6 +36,9 @@ function MainPage() {
         <Divider sx={{ my: 0.7 }} />
         <section>
           <ColorInversionFooterOne />
+        </section>
+        <section>
+          <ColorInversionFooterTwo />
         </section>
       </div>
     </div>
