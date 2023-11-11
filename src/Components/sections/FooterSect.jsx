@@ -74,7 +74,9 @@ export default function ColorInversionFooterTwo() {
                 <Box variant="soft">
                     <Typography level="body-xs">&copy; 2023 - Developed by Rajesh Choudhary</Typography>
                 </Box>
+                <Box></Box>
             </Stack>
+            
             <Divider sx={{ my: 0.7 }} />
         </Sheet>
     );
